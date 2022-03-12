@@ -13,42 +13,37 @@
   inputs.src-choosenim-v0_7_4.repo  = "choosenim";
   inputs.src-choosenim-v0_7_4.type  = "github";
   
-  inputs."nimble".dir   = "nimpkgs/n/nimble";
-  inputs."nimble".owner = "riinr";
-  inputs."nimble".ref   = "flake-pinning";
-  inputs."nimble".repo  = "flake-nimble";
+  inputs."nimble".owner = "nim-nix-pkgs";
+  inputs."nimble".ref   = "master";
+  inputs."nimble".repo  = "nimble";
   inputs."nimble".type  = "github";
   inputs."nimble".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimble".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."nimterop".dir   = "nimpkgs/n/nimterop";
-  inputs."nimterop".owner = "riinr";
-  inputs."nimterop".ref   = "flake-pinning";
-  inputs."nimterop".repo  = "flake-nimble";
+  inputs."nimterop".owner = "nim-nix-pkgs";
+  inputs."nimterop".ref   = "master";
+  inputs."nimterop".repo  = "nimterop";
   inputs."nimterop".type  = "github";
   inputs."nimterop".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimterop".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."nimarchive".dir   = "nimpkgs/n/nimarchive";
-  inputs."nimarchive".owner = "riinr";
-  inputs."nimarchive".ref   = "flake-pinning";
-  inputs."nimarchive".repo  = "flake-nimble";
+  inputs."nimarchive".owner = "nim-nix-pkgs";
+  inputs."nimarchive".ref   = "master";
+  inputs."nimarchive".repo  = "nimarchive";
   inputs."nimarchive".type  = "github";
   inputs."nimarchive".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimarchive".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."analytics".dir   = "nimpkgs/a/analytics";
-  inputs."analytics".owner = "riinr";
-  inputs."analytics".ref   = "flake-pinning";
-  inputs."analytics".repo  = "flake-nimble";
+  inputs."analytics".owner = "nim-nix-pkgs";
+  inputs."analytics".ref   = "master";
+  inputs."analytics".repo  = "analytics";
   inputs."analytics".type  = "github";
   inputs."analytics".inputs.nixpkgs.follows = "nixpkgs";
   inputs."analytics".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."osinfo".dir   = "nimpkgs/o/osinfo";
-  inputs."osinfo".owner = "riinr";
-  inputs."osinfo".ref   = "flake-pinning";
-  inputs."osinfo".repo  = "flake-nimble";
+  inputs."osinfo".owner = "nim-nix-pkgs";
+  inputs."osinfo".ref   = "master";
+  inputs."osinfo".repo  = "osinfo";
   inputs."osinfo".type  = "github";
   inputs."osinfo".inputs.nixpkgs.follows = "nixpkgs";
   inputs."osinfo".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
