@@ -13,26 +13,23 @@
   inputs.src-choosenim-v0_1_0.repo  = "choosenim";
   inputs.src-choosenim-v0_1_0.type  = "github";
   
-  inputs."nimble".dir   = "nimpkgs/n/nimble";
-  inputs."nimble".owner = "riinr";
-  inputs."nimble".ref   = "flake-pinning";
-  inputs."nimble".repo  = "flake-nimble";
+  inputs."nimble".owner = "nim-nix-pkgs";
+  inputs."nimble".ref   = "master";
+  inputs."nimble".repo  = "nimble";
   inputs."nimble".type  = "github";
   inputs."nimble".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimble".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."untar".dir   = "nimpkgs/u/untar";
-  inputs."untar".owner = "riinr";
-  inputs."untar".ref   = "flake-pinning";
-  inputs."untar".repo  = "flake-nimble";
+  inputs."untar".owner = "nim-nix-pkgs";
+  inputs."untar".ref   = "master";
+  inputs."untar".repo  = "untar";
   inputs."untar".type  = "github";
   inputs."untar".inputs.nixpkgs.follows = "nixpkgs";
   inputs."untar".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."libcurl".dir   = "nimpkgs/l/libcurl";
-  inputs."libcurl".owner = "riinr";
-  inputs."libcurl".ref   = "flake-pinning";
-  inputs."libcurl".repo  = "flake-nimble";
+  inputs."libcurl".owner = "nim-nix-pkgs";
+  inputs."libcurl".ref   = "master";
+  inputs."libcurl".repo  = "libcurl";
   inputs."libcurl".type  = "github";
   inputs."libcurl".inputs.nixpkgs.follows = "nixpkgs";
   inputs."libcurl".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
