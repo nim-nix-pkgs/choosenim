@@ -34,13 +34,6 @@
   inputs."osinfo".inputs.nixpkgs.follows = "nixpkgs";
   inputs."osinfo".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."https://github.com/dom96/zippy".owner = "nim-nix-pkgs";
-  inputs."https://github.com/dom96/zippy".ref   = "master";
-  inputs."https://github.com/dom96/zippy".repo  = "https://github.com/dom96/zippy";
-  inputs."https://github.com/dom96/zippy".type  = "github";
-  inputs."https://github.com/dom96/zippy".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."https://github.com/dom96/zippy".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
