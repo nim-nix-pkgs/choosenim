@@ -9,13 +9,14 @@
   
   inputs.src-choosenim-v0_2_0.flake = false;
   inputs.src-choosenim-v0_2_0.owner = "dom96";
-  inputs.src-choosenim-v0_2_0.ref   = "refs/tags/v0.2.0";
+  inputs.src-choosenim-v0_2_0.ref   = "v0_2_0";
   inputs.src-choosenim-v0_2_0.repo  = "choosenim";
   inputs.src-choosenim-v0_2_0.type  = "github";
   
   inputs."nimble".owner = "nim-nix-pkgs";
   inputs."nimble".ref   = "master";
   inputs."nimble".repo  = "nimble";
+  inputs."nimble".dir   = "v0_13_1";
   inputs."nimble".type  = "github";
   inputs."nimble".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimble".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
@@ -23,6 +24,7 @@
   inputs."untar".owner = "nim-nix-pkgs";
   inputs."untar".ref   = "master";
   inputs."untar".repo  = "untar";
+  inputs."untar".dir   = "";
   inputs."untar".type  = "github";
   inputs."untar".inputs.nixpkgs.follows = "nixpkgs";
   inputs."untar".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
@@ -30,6 +32,7 @@
   inputs."libcurl".owner = "nim-nix-pkgs";
   inputs."libcurl".ref   = "master";
   inputs."libcurl".repo  = "libcurl";
+  inputs."libcurl".dir   = "v1_0_0";
   inputs."libcurl".type  = "github";
   inputs."libcurl".inputs.nixpkgs.follows = "nixpkgs";
   inputs."libcurl".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
