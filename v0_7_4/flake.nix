@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-choosenim-v0_7_4.flake = false;
+  inputs.src-choosenim-v0_7_4.ref   = "refs/tags/v0.7.4";
   inputs.src-choosenim-v0_7_4.owner = "dom96";
-  inputs.src-choosenim-v0_7_4.ref   = "v0_7_4";
   inputs.src-choosenim-v0_7_4.repo  = "choosenim";
   inputs.src-choosenim-v0_7_4.type  = "github";
   

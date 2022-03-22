@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-choosenim-v0_7_5-20201029-edc69bd.flake = false;
+  inputs.src-choosenim-v0_7_5-20201029-edc69bd.ref   = "refs/tags/v0.7.5-20201029-edc69bd";
   inputs.src-choosenim-v0_7_5-20201029-edc69bd.owner = "dom96";
-  inputs.src-choosenim-v0_7_5-20201029-edc69bd.ref   = "v0_7_5-20201029-edc69bd";
   inputs.src-choosenim-v0_7_5-20201029-edc69bd.repo  = "choosenim";
   inputs.src-choosenim-v0_7_5-20201029-edc69bd.type  = "github";
   
