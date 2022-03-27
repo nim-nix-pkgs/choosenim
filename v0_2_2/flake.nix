@@ -11,6 +11,7 @@
   inputs.src-choosenim-v0_2_2.ref   = "refs/tags/v0.2.2";
   inputs.src-choosenim-v0_2_2.owner = "dom96";
   inputs.src-choosenim-v0_2_2.repo  = "choosenim";
+  inputs.src-choosenim-v0_2_2.dir   = "";
   inputs.src-choosenim-v0_2_2.type  = "github";
   
   inputs."nimble".owner = "nim-nix-pkgs";
