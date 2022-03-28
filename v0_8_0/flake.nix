@@ -11,7 +11,6 @@
   inputs.src-choosenim-v0_8_0.ref   = "refs/tags/v0.8.0";
   inputs.src-choosenim-v0_8_0.owner = "dom96";
   inputs.src-choosenim-v0_8_0.repo  = "choosenim";
-  inputs.src-choosenim-v0_8_0.dir   = "";
   inputs.src-choosenim-v0_8_0.type  = "github";
   
   inputs."nimble".owner = "nim-nix-pkgs";
@@ -37,6 +36,14 @@
   inputs."osinfo".type  = "github";
   inputs."osinfo".inputs.nixpkgs.follows = "nixpkgs";
   inputs."osinfo".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/dom96/zippy".owner = "nim-nix-pkgs";
+  inputs."github.com/dom96/zippy".ref   = "master";
+  inputs."github.com/dom96/zippy".repo  = "github.com/dom96/zippy";
+  inputs."github.com/dom96/zippy".dir   = "";
+  inputs."github.com/dom96/zippy".type  = "github";
+  inputs."github.com/dom96/zippy".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/dom96/zippy".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

@@ -11,7 +11,6 @@
   inputs.src-choosenim-master.ref   = "refs/heads/master";
   inputs.src-choosenim-master.owner = "dom96";
   inputs.src-choosenim-master.repo  = "choosenim";
-  inputs.src-choosenim-master.dir   = "";
   inputs.src-choosenim-master.type  = "github";
   
   inputs."nimble".owner = "nim-nix-pkgs";
