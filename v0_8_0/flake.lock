@@ -51,6 +51,33 @@
         "type": "github"
       }
     },
+    "github-dom96-zippy": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-zippy-0_6_2": "src-zippy-0_6_2"
+      },
+      "locked": {
+        "dir": "0_6_2",
+        "lastModified": 1648447338,
+        "narHash": "sha256-2OfZD+x9li3xgflV1EkmpukAiKl6IM9LbP4mX/kyNPU=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-dom96-zippy",
+        "rev": "69d0e4eb9c68cb7f47bd9f43aa63d3f7cc380568",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_6_2",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-dom96-zippy",
+        "type": "github"
+      }
+    },
     "isaac": {
       "inputs": {
         "flakeNimbleLib": [
@@ -243,6 +270,7 @@
       "inputs": {
         "analytics": "analytics",
         "flakeNimbleLib": "flakeNimbleLib",
+        "github-dom96-zippy": "github-dom96-zippy",
         "nimble": "nimble",
         "nixpkgs": "nixpkgs",
         "osinfo": "osinfo_2",
@@ -416,6 +444,23 @@
         "owner": "pragmagic",
         "ref": "refs/tags/v0.1.11",
         "repo": "uuids",
+        "type": "github"
+      }
+    },
+    "src-zippy-0_6_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1625968099,
+        "narHash": "sha256-JMYoj+qoqc46t0PvO413bv0dS9ZyMc5k2WOZ+nGocJc=",
+        "owner": "dom96",
+        "repo": "zippy",
+        "rev": "14739c9e8bedc1110fd935d04fcf3ab0f2bf1b59",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dom96",
+        "ref": "refs/tags/0.6.2",
+        "repo": "zippy",
         "type": "github"
       }
     },
