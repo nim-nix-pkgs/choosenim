@@ -420,6 +420,23 @@
         "type": "github"
       }
     },
+    "src-zippy-0_10_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1655655039,
+        "narHash": "sha256-d94w9+9L8KNew9cv2Nttr9m3bW9v+h8cTd6lj+H4WT4=",
+        "owner": "guzba",
+        "repo": "zippy",
+        "rev": "a4eb6cb9b49049d70528ffb88a32469badf493ad",
+        "type": "github"
+      },
+      "original": {
+        "owner": "guzba",
+        "ref": "refs/tags/0.10.2",
+        "repo": "zippy",
+        "type": "github"
+      }
+    },
     "src-zippy-0_9_7": {
       "flake": false,
       "locked": {
@@ -433,23 +450,6 @@
       "original": {
         "owner": "guzba",
         "ref": "refs/tags/0.9.7",
-        "repo": "zippy",
-        "type": "github"
-      }
-    },
-    "src-zippy-0_9_8": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1652225771,
-        "narHash": "sha256-rK8UJ2HN59SneZFpRC8gVkjTbPCReSKqPt2JwotGelw=",
-        "owner": "guzba",
-        "repo": "zippy",
-        "rev": "3eee4f66049b2c1a0b99e24915ab9180c0c8b1eb",
-        "type": "github"
-      },
-      "original": {
-        "owner": "guzba",
-        "ref": "refs/tags/0.9.8",
         "repo": "zippy",
         "type": "github"
       }
@@ -554,19 +554,19 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "src-zippy-0_9_8": "src-zippy-0_9_8"
+        "src-zippy-0_10_2": "src-zippy-0_10_2"
       },
       "locked": {
-        "dir": "0_9_8",
-        "lastModified": 1652391753,
-        "narHash": "sha256-CVPObUfRFQQlz9F3Jrj+0Jg/LSaUlZcUTpDfHV6t08M=",
+        "dir": "0_10_2",
+        "lastModified": 1656301373,
+        "narHash": "sha256-82XVFiqTX5OucJQlrwS+EjzCKy97HNOMweaGsZfD104=",
         "owner": "nim-nix-pkgs",
         "repo": "zippy",
-        "rev": "66f593afc8796bfd78e543378cb5506bacccaf46",
+        "rev": "70e6a65d7a6613b6129345bc750be389769c4612",
         "type": "github"
       },
       "original": {
-        "dir": "0_9_8",
+        "dir": "0_10_2",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "zippy",
