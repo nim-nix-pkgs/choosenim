@@ -159,6 +159,14 @@
   inputs."choosenim-v0_8_2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."choosenim-v0_8_2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."choosenim-v0_8_4".dir   = "v0_8_4";
+  inputs."choosenim-v0_8_4".owner = "nim-nix-pkgs";
+  inputs."choosenim-v0_8_4".ref   = "master";
+  inputs."choosenim-v0_8_4".repo  = "choosenim";
+  inputs."choosenim-v0_8_4".type  = "github";
+  inputs."choosenim-v0_8_4".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."choosenim-v0_8_4".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
