@@ -1356,6 +1356,8 @@
   "web": "https://github.com/dom96/choosenim",
   "refs": [
     "refs/heads/dom96-patch-1",
+    "refs/heads/dom96-patch-2",
+    "refs/heads/dom96-patch-3",
     "refs/heads/fix-188",
     "refs/heads/fix-195",
     "refs/heads/fixes-140",
