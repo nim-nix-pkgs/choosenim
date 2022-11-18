@@ -1393,7 +1393,7 @@
   "heads": [
     {
       "name": "choosenim",
-      "version": "0.8.2",
+      "version": "0.8.4",
       "author": "Dominik Picheta",
       "desc": "The Nim toolchain installer.",
       "license": "MIT",
