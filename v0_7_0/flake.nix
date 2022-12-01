@@ -16,7 +16,7 @@
   inputs."nimble".owner = "nim-nix-pkgs";
   inputs."nimble".ref   = "master";
   inputs."nimble".repo  = "nimble";
-  inputs."nimble".dir   = "v0_13_1";
+  inputs."nimble".dir   = "v0_14_0";
   inputs."nimble".type  = "github";
   inputs."nimble".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimble".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
